@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.pc1.presentation.page.CurrencyConverter
 import com.example.pc1.presentation.page.DogAgeCalculator
 import pagPrincipal
 
@@ -16,6 +17,9 @@ fun AppNavGraph() {
         }
         composable("MenuPerrito"){
             DogAgeCalculator(navController)
+        }
+        composable("MenuDivisas"){
+            CurrencyConverter(navController)
         }
     }
 
