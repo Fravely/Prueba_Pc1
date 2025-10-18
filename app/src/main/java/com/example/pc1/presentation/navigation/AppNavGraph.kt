@@ -6,6 +6,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.pc1.presentation.page.CurrencyConverter
 import com.example.pc1.presentation.page.DogAgeCalculator
+import com.example.pc1.presentation.page.ProductListScreen
 import pagPrincipal
 
 @Composable
@@ -21,6 +22,10 @@ fun AppNavGraph() {
         composable("MenuDivisas"){
             CurrencyConverter(navController)
         }
+        composable("MenuProductos"){
+            ProductListScreen(navController)
+        }
+
     }
 
 }

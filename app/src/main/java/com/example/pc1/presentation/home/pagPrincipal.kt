@@ -50,7 +50,9 @@ fun pagPrincipal(navController: NavController) {
 
         // Tercer botón
         Button(
-            onClick = { /* Acción para el botón 3 */ },
+            onClick = {
+                navController.navigate("MenuProductos")
+            },
             modifier = Modifier
                 .padding(top = 32.dp) // Más espacio arriba
                 .fillMaxWidth(0.8f)

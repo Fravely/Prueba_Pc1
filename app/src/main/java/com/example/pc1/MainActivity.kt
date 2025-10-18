@@ -24,7 +24,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PC1Theme {
-                ProductListScreen()
+                //ProductListScreen()
+                AppNavGraph()
             }
         }
     }
