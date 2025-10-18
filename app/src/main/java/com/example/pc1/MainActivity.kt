@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.pc1.presentation.navigation.AppNavGraph
 import com.example.pc1.presentation.page.CurrencyConverter
 import com.example.pc1.presentation.page.DogAgeCalculator
+import com.example.pc1.presentation.page.ProductListScreen
 import com.example.pc1.ui.theme.PC1Theme
 import pagPrincipal
 
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PC1Theme {
-                AppNavGraph()
+                ProductListScreen()
             }
         }
     }
